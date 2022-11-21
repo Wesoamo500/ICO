@@ -225,7 +225,7 @@ export default function Home() {
             walletConnected ?
             <div>
               <div className={styles.description}>
-                You've minted {utils.formatEther(balanceOfL3padTokens)} L3pad Tokens
+                You have minted {utils.formatEther(balanceOfL3padTokens)} L3pad Tokens
               </div>
               <div className={styles.description}>
                 Overall {utils.formatEther(tokenMinted)}/10000 have been minted
