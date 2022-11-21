@@ -11,7 +11,7 @@ contract L3padToken is ERC20, Ownable{
 
     ICryptoDevs CryptoDevsNFT;
 
-    uint256 public constant tokenPrice = 0.01 ether;
+    uint256 public constant tokenPrice = 0.001 ether;
     uint256 public constant tokensPerNFT = 10 * 10**18;
     uint256 public constant maxTotalSupply = 10000 * 10**18;
     mapping(uint256 => bool) public tokenIdsClaimed;
